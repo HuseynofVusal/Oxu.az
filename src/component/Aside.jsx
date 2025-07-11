@@ -2,7 +2,7 @@ import React from "react";
 
 const Aside = () => {
   return (
-    <div className="fixed scroll-container top-0 left-0 w-[56px] h-screen  bg-[#ece9e9] flex flex-col overflow-auto">
+    <div className="fixed scroll-container top-0 left-0 w-[56px] h-screen  bg-[#ece9e9] lg:flex hidden flex-col overflow-auto">
       <ul className="sidebartop px-3 py-6">
         <li className="py-1 px-2 flex justify-center items-center mb-[24px] border h-[24px] text-[.78rem] font-bold border-[#333] rounded-full">
           AZ
